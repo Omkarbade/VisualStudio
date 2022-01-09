@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlipCoin", "FlipCoin\FlipCoin.csproj", "{B64241BE-A4BF-4FAD-9519-75CBC5C34B8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceWords", "ReplaceWords\ReplaceWords.csproj", "{5C9A3575-3C8E-4232-89DA-5DEF67032A9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B64241BE-A4BF-4FAD-9519-75CBC5C34B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B64241BE-A4BF-4FAD-9519-75CBC5C34B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B64241BE-A4BF-4FAD-9519-75CBC5C34B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B64241BE-A4BF-4FAD-9519-75CBC5C34B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9A3575-3C8E-4232-89DA-5DEF67032A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9A3575-3C8E-4232-89DA-5DEF67032A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9A3575-3C8E-4232-89DA-5DEF67032A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9A3575-3C8E-4232-89DA-5DEF67032A9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9DE5A9E3-53AA-43C3-843A-D3253AC54036}
+		SolutionGuid = {21943FB6-B69A-49E4-B312-D611928A1D58}
 	EndGlobalSection
 EndGlobal

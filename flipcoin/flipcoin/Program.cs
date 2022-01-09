@@ -1,33 +1,26 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-{ class flipcoin
-
 {
-    public static void findflipcoinpercentage()
+    int tailCount = 0, headCount = 0;
+    Console.WriteLine("Enter a Number to Flip a Coin: ");
+    int Number = Convert.ToInt32(Console.ReadLine());
+
+    Random random = new Random();
+    for (int i = 0; i < Number; i++)
     {
-        int tailcount = 0;
-        int headcount = 0;
-        Console.WriteLine("Please enter number to know hoe many times to flip the coin");
-        int numboftimes = Convert.ToInt32
-
+        double randomNum = random.NextDouble();
+        if (randomNum < 0.5)
+            tailCount++;
+        else
+            headCount++;
     }
+    Console.WriteLine("Total number of tails is : " + tailCount);
+    Console.WriteLine("Total Number of heads is : " + headCount);
 
+    decimal tailPercentage = (decimal)(tailCount * 100) / Number;
+    tailPercentage = Math.Round(tailPercentage, 2);
+    decimal headPercentage = (decimal)(headCount * 100) / Number;
+    headPercentage = Math.Round(headPercentage, 2);
+    Console.WriteLine("Percentage of Tails is: " + tailPercentage + "%");
+    Console.WriteLine("Percentage of Heads is: " + headPercentage + "%");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
+    
