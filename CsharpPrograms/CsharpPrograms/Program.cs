@@ -19,6 +19,10 @@ namespace CsharpPrograms
             //CsharpPrograms.SwapTwoNumbers.SwapNumbers();
             //CsharpPrograms.LeapYear.CheckingLeapYear();
             //CsharpPrograms.QuotientandReminder.FindingQuoadRem();
+            //CsharpPrograms.EvenOdd.CheckEvenorOdd();
+            //CsharpPrograms.LargestNumber.LargestNumberAmongThreeNos();
+            CsharpPrograms.VowelConsonant.CheckVowelorConsonant();
+
             Console.ReadLine();
         }
     }
