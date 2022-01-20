@@ -11,8 +11,14 @@ namespace CsharpPrograms
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to CSharpPrograms");
+            //CsharpPrograms.HarmonicNumber.PrintHarmonicNumber();
+            //CsharpPrograms.Factors.FactorsOfNumber();
+            //CsharpPrograms.Flipcoin.CoinFlip();
+            //CsharpPrograms.PowerofTwo.FindPowerofTwo();
+            //CsharpPrograms.ReplaceWord.UserInput();
+            //CsharpPrograms.SwapTwoNumbers.SwapNumbers();
             //CsharpPrograms.LeapYear.CheckingLeapYear();
-            CsharpPrograms.QuotientandReminder.FindingQuoadRem();
+            //CsharpPrograms.QuotientandReminder.FindingQuoadRem();
             Console.ReadLine();
         }
     }
